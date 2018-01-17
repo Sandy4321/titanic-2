@@ -27,5 +27,9 @@ setup(
     install_requires=[
         'pypandoc>=1.4',
         'pyyaml>=3.12',
+        'pytest>=3.2.3',
+        'pytest-runner>=2.12.1',
     ],
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
 )
